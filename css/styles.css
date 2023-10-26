@@ -1,0 +1,131 @@
+  
+.carcasa {
+    background: greenyellow;
+    width: 41vw;
+    height: 68vw;
+    margin: 10vh auto;
+    border-radius: 1.5vw 1.5vw 10vw 1.5vw;
+    padding: 7vh;
+    position: relative;
+}
+  .bordepantalla {
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    width: 82%;
+    height: 38%;
+    background: gray;
+    border-radius: 5% 5% 19% 5%;
+    box-shadow: inset 0px 0px 0px 3px rgba(0, 0, 0, 0.06);
+}
+  
+  .pantalla {
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    width: 66%;
+    height: 78%;
+    background: rgb(9, 62, 4);
+    border-radius: 0.25vw;
+}
+    
+  .cruz {
+    position: absolute;
+    height: 11vw;
+    width: 11vw;
+    top: 59.5%;
+    left: 9%;
+    background: greenyellow;
+    border-radius: 100vw;
+}
+
+  .vertical {
+    position: absolute;
+    height: 93%;
+    width: 3.6vw;
+    top: 3%;
+    left: 30%;
+    border-radius: 0.5vw;
+    background: black;
+}
+  
+  .horizontal {
+    position: absolute;
+    width: 90%;
+    height: 3.6vw;
+    left: 1%;
+    top: 33%;
+    border-radius: 0.5vw;
+    background: black;
+}
+  
+ 
+  .b-a {
+    position: absolute;
+    height: 6.6vw;
+    width: 14vw;
+    top: 61.5%;
+    left: 63%;
+    border-radius: 100vw;
+    transform: rotate(-25deg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+  .b {
+    position: absolute;
+    height: 5vw;
+    width: 5vw;
+    top: 13%;
+    left: 6%;
+    background: black;
+    border-radius: 100vw;
+    text-align: center; 
+}
+  
+.b span {
+    position: absolute;
+    top: 130%;
+    text-indent: -0.3vw;
+    font-size: 1.4vw;
+}
+  
+.a {
+    left: 60%;
+    text-indent: -0.3vw;
+}
+  
+.start,
+.select {
+    position: absolute;
+    height: 1.5vw;
+    width: 5vw;
+    top: 81%;
+    left: 31%;
+    border-radius: 10vw;
+    transform: rotate(-25deg);
+    background: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+  
+  .start{
+    left: 48%;
+}
+  
+  .start span,
+  .select span {
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 135%;
+    font-size:1.2vw;
+    width: 100%;
+}
+  
+ 
+  
+
+  
+  
+  
