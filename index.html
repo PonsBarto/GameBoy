@@ -9,7 +9,7 @@
 <body>
     <div class="carcasa">
         <div class="bordepantalla">
-          <div class="pantalla"></div>
+          <div id="pantalla" class="pantalla"></div>
         </div>
         
         <div class="cruz">
@@ -17,14 +17,14 @@
             <div class="horizontal"></div>
         </div>
         <div class="b-a">  
-            <button class="b"><span>B</span></button>
-            <button class="b a"><span>A</span></button>
+            <button id="boton-b" onclick="clickBoton('red')" class="b"><span>B</span></button>
+            <button id="boton-a" onclick="clickBoton('blue')" class="b a"><span>A</span></button>
         </div>
-            <button class="binfriori"><span></span></button>
+            <button id="boton-a" onclick="clickBoton('green')"class="binfriori"><span></span></button>
             <button class="binferiord"><span></span></button>
-            
         </div>
-        
+    
     </div>
+    <script src="/js/main.js"></script>
 </body>
 </html>
