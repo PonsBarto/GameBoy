@@ -1,140 +1,222 @@
-  
-.carcasa {
-    background: greenyellow;
-    width: 41vw;
-    height: 68vw;
-    margin: 10vh auto;
-    border-radius: 1.5vw 1.5vw 10vw 1.5vw;
-    padding: 7vh;
+body{
+  width: 100vw;   
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: paleturquoise;
+
+}
+
+.carcasa{
+    width: 20em;
+    height: 30em;
+    margin: 2em; 
+    border-radius: 5% 5% 15% 5%;
+    background-color: purple;
+}
+
+.logo{
+    width: 50%;
+    height: 4%;
+    background-image: url(/img/logogame.png);
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.borde{
     position: relative;
-}
-  .bordepantalla {
-    position: absolute;
-    top: 9%;
-    left: 9%;
-    width: 82%;
-    height: 38%;
-    background: gray;
-    border-radius: 5% 5% 19% 5%;
-    box-shadow: inset 0px 0px 0px 3px rgba(0, 0, 0, 0.06);
-}
-  
-  .pantalla {
-    position: absolute;
-    top: 10%;
-    left: 17%;
-    width: 66%;
-    height: 78%;
-    background: rgb(9, 62, 4);
-    border-radius: 0.25vw;
-}
-    
-  .cruz {
-    position: absolute;
-    height: 11vw;
-    width: 11vw;
-    top: 59.5%;
-    left: 9%;
-    background: greenyellow;
-    border-radius: 100vw;
-}
-
-  .vertical {
-    position: absolute;
-    height: 93%;
-    width: 3.6vw;
-    top: 3%;
-    left: 30%;
-    border-radius: 0.5vw;
-    background: black;
-}
-  
-  .horizontal {
-    position: absolute;
-    width: 90%;
-    height: 3.6vw;
-    left: 1%;
-    top: 33%;
-    border-radius: 0.5vw;
-    background: black;
-}
-  
- 
-  .b-a {
-    position: absolute;
-    height: 6.6vw;
-    width: 14vw;
-    top: 61.5%;
-    left: 63%;
-    border-radius: 100vw;
-    transform: rotate(-25deg);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-  
-  .b {
-    position: absolute;
-    height: 5vw;
-    width: 5vw;
-    top: 13%;
+    width: 16em;
+    height: 12em;
+    border-radius: 5% 5% 15% 5%;
     left: 6%;
-    background: black;
-    border-radius: 100vw;
-    text-align: center; 
+    margin-top: 2em;
+    background-color: black;
+    
+    display: flex;
+       
 }
-  
-.b span {
-    position: absolute;
-    top: 130%;
-    text-indent: -0.3vw;
-    font-size: 1.4vw;
+
+.led{
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 100%;
+    margin-top: 29%;
+    margin-left: 6%;
+    background-color: brown;
 }
-  
-.a {
-    left: 60%;
-    text-indent: -0.3vw;
+
+.pantalla{
+    width: 70%;
+    height: 90%;
+    border-radius: 5% 5% 5% 5%;
+    margin-top: 4%;
+    margin-left: 5%;
+    background-color: black;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+
 }
-  
-.binferiord,
-.binfriori {
-    position: absolute;
-    height: 1.5vw;
-    width: 5vw;
-    top: 81%;
-    left: 31%;
-    border-radius: 10vw;
+
+
+.cruz{
+
+    width: 23%;
+    height: 16%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 100%; 
+    
+}
+
+#arriba{
+    width: 1.2em;
+    height: 4.5em;
+    margin-left: 36%;
+    background-color:black;
+}
+
+#abajo{
+    width: 4.5em;
+    height: 1.2em;
+    margin-top: -60%;
+    margin-left: 0%;
+    background-color: black;
+}
+
+
+.boton_AB{
+    width: 25%;
+    height: 17%;
+    margin-top: -24%;
+    margin-left: 62%;
+    
+}
+
+#boton_A{
+    width: 50%;
+    height: 50%;
+    margin-top: -20%;
+    margin-left: 62%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#boton_B{
+    width: 50%;
+    height: 50%;
+    margin-top: 20%;
+    margin-left: 2%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.letraA{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25%;
+    margin-left: 35%;
+}
+
+.letraB{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 25%;
+    margin-left: 35%;
+}
+
+.marcha{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 15%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#onoff{
+    width: 25%;
+    height: 17%;
+    border-radius: 35%;
+    margin-top: 10%;
     transform: rotate(-25deg);
-    background: black;
-    text-align: center;
+    background-color: black;
+}
+
+.on{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50%;
+    margin-left: -100%;
+    transform: rotate(25deg);
+
+}
+
+
+
+#reset{
+    width: 25%;
+    height: 17%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 35%;
+    background-color: black;
+    transform: rotate(-25deg);
+}
+
+.re{
+color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 65%;
+    margin-left: -50%;
+    transform: rotate(25deg);
+}
+
+.sonido{
+    height: 8em;
+    width: 2em;
+    margin-left: 90%;
+    margin-top: -50%;
+    
+    
+}
+
+.mas{
+    height: 1.2em;
+    width: 1.2em;
+    margin-left: 25%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.positivo{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ 
+}
+
+.menos{
+    height: 1.2em;
+    width: 1.2em;
+    margin-left: 25%;
+    margin-top: 190%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.negativo{
+    color: grey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-  
-.binferiord{
-    left: 48%;
-}
-  
-  .start span,
-  .select span {
-    position: absolute;
-    display: block;
-    text-align: center;
-    top: 135%;
-    font-size:1.2vw;
-    width: 100%;
-}
-
-.D{ 
-    position: absolute;
-    top: 20%;
-    left: 33%;
-    width: 66%;
-    height: 7%;   
-}
-
-
- 
-  
-
-  
-  
-  
